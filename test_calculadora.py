@@ -1,6 +1,7 @@
 from unittest import TestCase
-import Calculadora
+from Calculadora import *
 
 class TestCalculadora(TestCase):
     def test_contador(self):
-        self.fail()
+        lista = {}
+        self.assertEquals(Calculadora().contador(lista),0,"Lista Vacia")

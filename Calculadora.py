@@ -1,5 +1,5 @@
 
 
 class Calculadora:
-        def contador (lista):
-            pass
+        def contador (self,lista):
+            return 0
